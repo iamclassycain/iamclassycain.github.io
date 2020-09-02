@@ -1,0 +1,98 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    background-image: url("/Users/classycain/Downloads/webpage/media/IMG_9954.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .bgcontact {
+    background-image: url("/Users/classycain/Downloads/webpage/media/blackkk2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .topnav {
+    background-color: transparent;
+    overflow: hidden;
+    list-style-type: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  span.cclink {
+    color: red;
+    font-weight: bold;
+  }
+
+  a {
+    color: green;
+  }
+
+  div.about {
+    margin: 20px 20px; 
+    padding: 5px 5px;
+  }
+
+  div.contact {
+    margin: 20px 20px; 
+    padding: 5px 5px;
+    float: right;
+  }
+
+  div.favimages {
+    padding: 100px 100px 100px 100px;
+  }
+
+  div.aboutp {
+    margin: 20px 20px; 
+    padding: 5px 5px;
+    background-color: cyan;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  div.favphotographers {
+    display: inline-block;
+  }
+
+  div.photographers p {
+    display: inline-block;
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
